@@ -11,11 +11,12 @@ int main(void)
 	int b;
 	long int c;
 	long long int d;
-	float e;
+	float f;
 
-	printf("Size of a char: %lu", sizeof(a))
+printf("Size of a char: %lu", sizeof(a))
 	printf("Size of a int: %lu", sizeof(b))
 	printf("Size of a long int: %lu", sizeof(c))
 	printf("Size of a long long int: %lu", sizeof(d))
 	printf("Size of a float: %lu", sizeof(e))
 	return (0);
+}
