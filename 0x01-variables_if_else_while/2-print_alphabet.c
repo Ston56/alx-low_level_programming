@@ -2,16 +2,18 @@
 /**
  * main - Entry point
  * Description: 'Print alphabets lowercase
+ *
  * Reurn: Always 0 (Success)
  */
 int main(void)
 {
-	int n = 97;
-	while (n<= 122)
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; i < 26; i++)
 	{
-		putchar(n);
-		n++;
+		putchar(alp[1]);
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
