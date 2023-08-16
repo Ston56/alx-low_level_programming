@@ -1,8 +1,8 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - Entry point
- * Description - print a -putchar, written by mbah
- * Reeturn: 0
+ * Description - print a putchar, written by mbah
+ * Return: 0
  */
 
 int main(void)
