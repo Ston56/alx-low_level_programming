@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- * puts_half - A funtion that prints half of the string passed to its as an argunment.
- * @a: The argunment passed to the function
- * @n: The argunment passed to teh function
- * @longi: Holds the lenght of input string
+ * puts_half - funtion that prints half of the string.
+ * followed by a new line,
+ * @str: This is the input string
  */
 void puts_half(char *str)
 
 {
-int a, n, longi;
+int a;
+int n;
+int longi;
 longi = 0;
 for (a = 0; str[a] != '\0'; a++)
 longi++;
